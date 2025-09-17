@@ -1,0 +1,32 @@
+{
+  "name": "task-mgt-api",
+  "version": "1.0.0",
+  "description": "A robust task management api with features like task prioritization,due dates and user assignments",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/welgene/task-mgt-api.git"
+  },
+  "keywords": [
+    "\"task",
+    "prioritization\"",
+    "\"user",
+    "assingments\"",
+    "\"due",
+    "dates\""
+  ],
+  "author": "ogwel eugene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/welgene/task-mgt-api/issues"
+  },
+  "homepage": "https://github.com/welgene/task-mgt-api#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
