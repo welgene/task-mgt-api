@@ -3,6 +3,7 @@
  * @route   GET /api/tasks
  */
 const getTasks = (req, res) => {
+    const tasks = () => tasks
     res.status(200).json({ message: 'Get all tasks' });
 };
 
