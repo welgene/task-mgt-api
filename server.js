@@ -3,6 +3,7 @@ require('dotenv').config()
 const connectDB = require('./config/db');
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpecs = require('./swaggerConfig');
+const HTTP_STATUS = require('./constants')
 
 const port = process.env.PORT || 3000;
 
